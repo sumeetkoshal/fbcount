@@ -44,10 +44,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/companies/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="76" selection-start="1316" selection-end="1316" vertical-scroll-proportion="0.88938713">
+            <state line="50" column="76" selection-start="1316" selection-end="1316" vertical-scroll-proportion="-22.884615">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cron.rake" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/tasks/cron.rake">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="30" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -84,16 +93,15 @@
         <entry file="file://$PROJECT_DIR$/app/views/companies/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="company.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/company.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="2" selection-start="915" selection-end="915" vertical-scroll-proportion="0.0">
-              <folding />
+              <folding>
+                <marker date="1342440573384" expanded="true" signature="96:337" placeholder="..." />
+                <marker date="1342440573384" expanded="true" signature="214:326" placeholder="..." />
+                <marker date="1342440573384" expanded="true" signature="372:442" placeholder="..." />
+                <marker date="1342440573384" expanded="true" signature="464:532" placeholder="..." />
+                <marker date="1342440573384" expanded="true" signature="554:636" placeholder="..." />
+                <marker date="1342440573384" expanded="true" signature="658:742" placeholder="..." />
+                <marker date="1342440573384" expanded="true" signature="766:795" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -710,13 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/tasks/cron.rake">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="30" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/company.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="2" selection-start="915" selection-end="915" vertical-scroll-proportion="0.0">
@@ -762,7 +763,15 @@
     <entry file="file://$PROJECT_DIR$/app/views/companies/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <marker date="1342440573384" expanded="true" signature="96:337" placeholder="..." />
+            <marker date="1342440573384" expanded="true" signature="214:326" placeholder="..." />
+            <marker date="1342440573384" expanded="true" signature="372:442" placeholder="..." />
+            <marker date="1342440573384" expanded="true" signature="464:532" placeholder="..." />
+            <marker date="1342440573384" expanded="true" signature="554:636" placeholder="..." />
+            <marker date="1342440573384" expanded="true" signature="658:742" placeholder="..." />
+            <marker date="1342440573384" expanded="true" signature="766:795" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -782,7 +791,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/companies/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="76" selection-start="1316" selection-end="1316" vertical-scroll-proportion="0.88938713">
+        <state line="50" column="76" selection-start="1316" selection-end="1316" vertical-scroll-proportion="-22.884615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/tasks/cron.rake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="30" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
