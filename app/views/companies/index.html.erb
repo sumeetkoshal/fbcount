@@ -1,0 +1,53 @@
+<div align="center">
+<h1>Top 30 business brands on Facebook</h1>
+</div>
+
+<!-- Javascript goes in the document HEAD -->
+<script type="text/javascript">
+    function altRows(id){
+        if(document.getElementsByTagName){
+
+            var table = document.getElementById(id);
+            var rows = table.getElementsByTagName("tr");
+
+            for(i = 0; i < rows.length; i++){
+                if(i % 2 == 0){
+                    rows[i].className = "evenrowcolor";
+                }else{
+                    rows[i].className = "oddrowcolor";
+                }
+            }
+        }
+    }
+
+    window.onload=function(){
+        altRows('alternatecolor');
+    }
+</script>
+
+<table  class="altrowstable" id="alternatecolor" align="center" width="50%">
+  <tr bgcolor="gray">
+    <th>Name</th>
+    <th>Description</th>
+    <th>FB Likes</th>
+  </tr>
+
+<% @companies.each do |company| %>
+  <tr>
+    <%
+       url = company.url
+       url = "http://#{url}" if not url.starts_with?("http://")
+    %>
+    <td><%= link_to company.name, h(url) %> </td>
+    <td><%= company.description %></td>
+    <td><a href="http://www.facebook.com/<%=company.facebookid%>"><%= company.likecount %></a></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<div align="center">
+    <b><%= link_to 'Click here to add your company', new_company_path %></b>
+    <%= will_paginate @companies %>
+</div>

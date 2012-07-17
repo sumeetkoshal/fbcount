@@ -1,0 +1,33 @@
+// Place all the styles related to the companies controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+table.altrowstable {
+                    font-family: verdana,arial,sans-serif;
+                    font-size:11px;
+                    color:#333333;
+                    border-width: 1px;
+                    border-color: #a9c6c9;
+                    border-collapse: collapse;
+                  }
+table.altrowstable th {
+  border-width: 2px;
+  font-size: 14px;
+  padding: 8px;
+  border-style: solid;
+  border-color: #a9c6c9;
+}
+table.altrowstable td {
+  border-width: 1px;
+  padding: 8px;
+  text-align: center;
+  border-style: solid;
+  border-color: #a9c6c9;
+}
+.oddrowcolor{
+  background-color:#d4e3e5;
+}
+.evenrowcolor{
+  background-color:#c3dde0;
+}
+
